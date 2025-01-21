@@ -9,8 +9,8 @@ from selenium.webdriver.common.action_chains import ActionChains
 import time
 
 APOLLO_LOGIN_URL = "https://app.apollo.io/#/people"
-EMAIL = "az8qvnd@aligroup.uk"  # Replace with your actual email
-PASSWORD = "Khayrul%%1234"  # Replace with your actual password
+EMAIL = "@gmail.com"  # Replace with your actual email
+PASSWORD = "xyz"  # Replace with your actual password
 
 # WebDriver setup (outside the loop)
 options = Options()
@@ -131,7 +131,7 @@ def main():
     try:
         login_to_apollo(driver, wait)
         list_urls = [
-            "https://app.apollo.io/#/lists/677a72fc3e879a01b2307e63?page=79&organizationNumEmployeesRanges[]=10001&organizationNumEmployeesRanges[]=5001%2C10000&organizationNumEmployeesRanges[]=2001%2C5000&sortAscending=true&sortByField=person_name.raw"
+            "xyz url"
         ]
         for url in list_urls:
             process_list(driver, wait, url)
