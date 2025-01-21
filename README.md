@@ -75,6 +75,3 @@ python script_name.py
 ## Disclaimer
 This script is intended for educational purposes only. Ensure compliance with Apollo.io's terms of service before using it for automation. Use at your own risk.
 
---- 
-
-Let me know if you need further adjustments or additional details!
